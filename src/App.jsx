@@ -1,14 +1,14 @@
 import React from  'react'
-import { useState } from 'react'
-import home from './component/major/homepage/home'
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./component/index";
 
 function App() {
 
   return (
     <>
-    <home/>
+    <Home />
     </>
   )
 }
 
-export default App
+export default App;

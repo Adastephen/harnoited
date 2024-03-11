@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../../variant/header.jsx";
+import { Header } from "../../index";
 
-const Home = () => {
+function Home () {
     return (
     <>
-    <Header/>
+    <header />
     </>
 )
 }
