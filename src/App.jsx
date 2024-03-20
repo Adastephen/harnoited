@@ -1,14 +1,18 @@
-import React from  'react'
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from "./component/index";
+import React from "react";
+import { 
+  Header, 
+  Hero 
+  }
+   from "./component/major/home/index.js";
 
 function App() {
-
   return (
     <>
-    <Home />
+      <Header />
+      <Hero />
+
     </>
-  )
+  );
 }
 
 export default App;
